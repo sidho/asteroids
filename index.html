@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Asteroids!</title>
+  <link rel="stylesheet" href="asteroids.css" />
+
+</head>
+<body>
+  <canvas id="canvas" width="640" height="480"></canvas>
+  <script src="lib/movingObject.js" charset="utf-8"></script>
+  <script src="lib/utils.js" charset="utf-8"></script>
+  <script src="lib/asteroid.js" charset="utf-8"></script>
+  <script src="lib/bullet.js" charset="utf-8"></script>
+  <script src="lib/ship.js" charset="utf-8"></script>
+  <script src="lib/game.js" charset="utf-8"></script>
+  <script src="lib/gameView.js" charset="utf-8"></script>
+  <script>
+    var gameView = new Asteroids.GameView;
+    gameView.start();
+  </script>
+</body>
+</html>
